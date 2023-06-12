@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*FIM R CSS*/
+@font-face {
+    font-family: 'Italiana';
+    src: url(font/Italiana-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PoppinsEX';
+    src: url(font/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url(font/Poppins-Bold.ttf)
+}
+
+font-face {
+    font-family: 'PoppinssemiBold';
+    src: url(font/Poppins-SemiBold.ttf)
+}
+
+/*HEADER*/
+.conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 250px;
+    cursor: pointer;
+}
+
+.item {
+    font: 400 29.4165px 'Italiana', sans-serif;
+    color: #E0C076;
+
+}
+
+.item:hover {
+    font: 400 40px 'Italiana', sans-serif;
+    color: #ffffff;
+    transition: 0.8s;
+}
+
+.usuario {
+    width: 45px;
+    cursor: pointer;
+}
+
+
+.carrinho {
+    width: 45px;
+    cursor: pointer;
+}
+
+/*FHEADER*/
+/*PRODUTOS*/
+.Sobre {
+    color: #ffffff;
+    font: 400 80px 'Italiana', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 535px;
+    left: 579px;
+}
+
+.linhasobre {
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    left: 510px;
+    top: 582px;
+
+    border: 1px solid #E0C076;
+    transform: rotate(-90deg);
+}
+
+
+
+.RETANGULO {
+    position: absolute;
+    width: 1560px;
+    height: 900px;
+    left: -23px;
+    top: 1081px;
+
+    background: #1E1E1E;
+
+}
+
+.Bem-vindo {
+    position: absolute;
+    width: 650px;
+    height: 50px;
+    left: 130px;
+    top: 180px;
+    color: #ffffff;
+    font: 400 40px 'Italiana', sans-serif;
+}
+
+.ciamassas {
+    position: absolute;
+    width: 650px;
+    height: 50px;
+    left: 130px;
+    top: 240px;
+    color: #E0C076;
+    font: 400 50px 'Italiana', sans-serif;
+}
+
+.pizza {
+    position: absolute;
+    width: 650px;
+    height: 50px;
+    left: 130px;
+    top: 320px;
+    color: #ffffff;
+    font: 400 40px 'Italiana', sans-serif;
+}
+
+.RETANGULO2 {
+    position: absolute;
+    width: 420px;
+    height: 80px;
+    left: 130px;
+    top: 550px;
+
+    background: #E0C076;
+}
+
+.arte {
+    color: #000000;
+    font: 400 40px 'Italiana', sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+/* EXPLORE */
+.RETANGULO3 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 130px;
+    top: 870px;
+    background: #FFFFFF;
+}
+
+.RETANGULO4 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    left: 100px;
+    top: 75px;
+
+    background: #E0C076;
+    border-radius: 5px;
+}
+
+.RETANGULO5 {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: 350px;
+
+    background: #1E1E1E;
+}
+
+.Explore {
+    position: absolute;
+    top: 113px;
+    left: 95px;
+    font: 400 30px 'PoppinsBold', sans-serif;
+    color: #000000;
+}
+
+.tradição {
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    font: 400 20px 'Poppins', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+/* EXPLORE */
+
+
+
+
+/* JORNADA */
+.RETANGULO6 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 463px;
+    top: 870px;
+    background: #FFFFFF;
+}
+
+.RETANGULO7 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    left: 100px;
+    top: 75px;
+
+    background: #E0C076;
+    border-radius: 5px;
+}
+
+.RETANGULO8 {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: 350px;
+
+    background: #1E1E1E;
+}
+
+.Jornada {
+    position: absolute;
+    top: 113px;
+    left: 85px;
+    font: 400 30px 'PoppinsBold', sans-serif;
+    color: #000000;
+}
+
+.homenagemqualidade {
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    font: 400 20px 'Poppins', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+/* Jornada */
+
+/* Compromisso */
+.RETANGULO9 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 796px;
+    top: 870px;
+    background: #FFFFFF;
+}
+
+.RETANGULO10 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    left: 100px;
+    top: 75px;
+
+    background: #E0C076;
+    border-radius: 5px;
+}
+
+.RETANGULO11 {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: 350px;
+
+    background: #1E1E1E;
+}
+
+.Compromisso {
+    position: absolute;
+    top: 113px;
+    left: 50px;
+    font: 400 30px 'PoppinsBold', sans-serif;
+    color: #000000;
+}
+
+/* Compromisso */
+/* CONVITE */
+.RETANGULO12 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 1129px;
+    top: 870px;
+    background: #FFFFFF;
+}
+
+.RETANGULO13 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    left: 100px;
+    top: 75px;
+
+    background: #E0C076;
+    border-radius: 5px;
+}
+
+.RETANGULO14 {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: 350px;
+
+    background: #1E1E1E;
+}
+
+.Convite {
+    position: absolute;
+    top: 113px;
+    left: 90px;
+    font: 400 30px 'PoppinsBold', sans-serif;
+    color: #000000;
+}
+
+.saborear {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    font: 400 20px 'Poppins', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+/* CONVITE */
+/* TEXTOS */
+.RETANGULO15 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    left: 125px;
+    top: 2629px;
+
+    background: #E0C076;
+    border-radius: 5px;
+    transform: rotate(-90deg);
+}
+
+.textoR15 {
+    position: absolute;
+    width: 1200px;
+    height: 310px;
+    left: 200px;
+    top: 2585px;
+    font: 400 40px 'Poppins', sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+}
+.RETANGULO16 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    left: 125px;
+    top: 3029px;
+
+    background: #E0C076;
+    border-radius: 5px;
+    transform: rotate(-90deg);
+}
+
+.textoR16 {
+    position: absolute;
+    width: 1200px;
+    height: 310px;
+    left: 200px;
+    top: 2985px;
+    font: 400 40px 'Poppins', sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+}
+.RETANGULO17 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    left: 125px;
+    top: 3429px;
+
+    background: #E0C076;
+    border-radius: 5px;
+    transform: rotate(-90deg);
+}
+
+.textoR17 {
+    position: absolute;
+    width: 1200px;
+    height: 310px;
+    left: 200px;
+    top: 3385px;
+    font: 400 40px 'Poppins', sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+}
+.RETANGULO18 {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    left: 125px;
+    top: 3860px;
+
+    background: #E0C076;
+    border-radius: 5px;
+    transform: rotate(-90deg);
+}
+
+.textoR18 {
+    position: absolute;
+    width: 1200px;
+    height: 310px;
+    left: 200px;
+    top: 3815px;
+    font: 400 40px 'Poppins', sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* copyright */
+.linhafinal {
+    position: absolute;
+    width: 1560px;
+    height: 0px;
+    left: 0px;
+    top: 2124px;
+
+    border: 1px solid #E0C076;
+}
+
+.copyright {
+    background-color: transparent;
+    color: #ffffff;
+    font: 400 20px 'Poppins', sans-serif;
+    position: absolute;
+    width: 706px;
+    height: 50px;
+    left: 38px;
+    top: 2204px;
+    border-top: 1px #E0C076;
+}
+
+.copyrightretangulo1img {
+    position: absolute;
+    width: 71px;
+    height: 37.52px;
+    left: 939px;
+    top: 2190px;
+
+    background: url(imagens/ifood.png);
+}
+
+
+.copyrightretangulo2img {
+    position: absolute;
+    width: 56.76px;
+    height: 37.84px;
+    left: 1088px;
+    top: 2191px;
+
+    background: url(imagens/assai.png);
+
+}
+
+.copyrightretangulo2img2 {
+    position: absolute;
+    width: 135px;
+    height: 37.84px;
+    left: 1180px;
+    top: 2190px;
+
+    background: url(imagens/atacadao.png);
+}
